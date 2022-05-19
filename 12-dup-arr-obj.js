@@ -8,13 +8,15 @@ var arr = [
 
 function remove(){
     for(var i=0; i < arr.length; i++){
-        if(arr[i].id!=arr[i].id){
-        }
-        else{
-            arr.pop(arr[i]);
+        for(j=0; j < arr.length; j++){
+            if(arr[i].id==arr[j].id){
+                arr.pop(arr[i]);
+            }
+            else{
+            }
         }
     }
-    return arr
+    return arr;
 }
 
 console.log(remove());

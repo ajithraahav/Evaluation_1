@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"path": "../yavar1"
+	},
+	{
+		"path": "../yavar"
+	},
+	{
+		"path": "../javascript"
+	},
+	{
+		"path": "../javascript-git"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "javascript"
+  }
+}
